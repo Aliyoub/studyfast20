@@ -1,0 +1,42 @@
+.linear-gradient-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #4c669f, #3b5998, #192f6a);
+  color: white;
+  font-size: 24px;
+}
+
+.topView {
+  width: 100%;
+  height: 130px;
+  background-color: white;
+}
+
+.topChildView {
+    width: 100%;
+    height: 130px;
+    background-color: #663E94;
+     /* background-color: #FFAFCC; */
+    border-bottom-right-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+.bottomView{
+    width: 100%;
+    background-color: #663E94;
+  }
+
+.bottomChildView{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-top-left-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 30px
+  }
